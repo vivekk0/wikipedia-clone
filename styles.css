@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f5;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #ffcc00;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #2e5a89;
+    border-bottom: 3px solid #ffcc00;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: #1e3a5f;
+}
+
+/* Search Bar */
+form {
+    text-align: center;
+    margin: 15px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #ffcc00;
+    color: #1e3a5f;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d4a800;
+}
+
+/* Main Sections */
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #ffcc00;
+}
+
+h3 {
+    color: #1e3a5f;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 5px;
+}
+
+/* Table Formatting */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #1e3a5f;
+    margin-top: 10px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px solid #1e3a5f;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* CSS Selectors Demonstration */
+/* 1. Class Selector */
+.highlight {
+    background-color: #ffcc00;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* 2. ID Selector */
+#featured-article {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 3. Descendant Selector */
+nav a:hover span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* 4. Child Selector */
+section > h3 {
+    text-transform: uppercase;
+}
+
+/* 5. Attribute Selector */
+input[type="text"] {
+    background-color: #f9f9f9;
+    border: 2px solid #1e3a5f;
+}
+
+/* 6. Pseudo-class Selector */
+nav a:first-child {
+    text-decoration: underline;
+}
+
+/* 7. Pseudo-element Selector */
+h1::first-letter {
+    font-size: 2em;
+    color: #ffcc00;
+}
